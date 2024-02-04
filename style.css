@@ -1,0 +1,58 @@
+
+#bar-right {
+    float: right;
+}
+
+html { 
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pxwall.com%2Fwp-content%2Fuploads%2F2019%2F04%2F4K-Ultra-HD-Desktop-Wallpapers.jpg&f=1&nofb=1&ipt=f7c2f1a68097d0549042d96d57033ae9c5e120851335dc8f13bf8f3c185b1e5b&ipo=images") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+          body{
+            font-family: 'Karla', sans-serif;
+            font-weight:   400;
+              background-size: 100%;
+              background-repeat: no-repeat;
+          }
+
+.bar {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(250, 250, 250, 0.65);  
+    top: 0px;
+    left: 0px;  
+}
+.bar-btn button {
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 18px;
+}
+.bar-btn button:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 30rem;
+    align-items:  center;
+    text-align: center;
+}
+.content input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0px;
+    transition: 0.2s;
+    font-size: 25px;
+    background-color: rgba(250, 250, 250);
+}
+.content input:focus {
+    box-shadow: 0 0 5px white;
+    background-color: rgba(250, 250, 250, 0.75);
+}
