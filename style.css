@@ -48,11 +48,6 @@ html {
     background-color: rgba(250, 250, 250, 0.45);
     color: rgba(0, 0, 0, 1);
 }
-.bar-btn button::after {
-    height: 3px;
-    width: 5px;
-    background-color: black;
-}
 
 .content {
     margin-top: 50vh;
