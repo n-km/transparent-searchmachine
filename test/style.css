@@ -44,8 +44,19 @@ html {
           button:hover {
             background-color: #0056b3;
           }
-
-
+          input[type="radio"] {
+            border-radius: 0px;
+          }
+          .pp {
+            overflow-x: hidden;
+            overflow-y: auto;
+            height: 200px;
+            scrollbar-width:none;
+            scroll-behavior: smooth;
+            scrollbar-color: blue;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+            border-radius: 3px;
+          }
            /*
   Mobile
   */
