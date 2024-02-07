@@ -18,7 +18,7 @@ html {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     background-color: rgba(250, 250, 250, 0.4);
     backdrop-filter: blur(4px);
@@ -90,7 +90,7 @@ html {
 
   /*
   Mobile
-  */
+  
   @media(max-width: 800px) {
     .end {
     bottom: 0;
@@ -99,7 +99,7 @@ html {
     border-radius: 10px 0px 0px 0px;
     }
   }
-
+*/
 
 
   /*
