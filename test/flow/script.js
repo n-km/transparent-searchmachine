@@ -31,7 +31,7 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
     const totalQuestions = 6;
     const percentage = (score / totalQuestions) * 100;
   
-    document.getElementById('result').innerHTML = `You have reached ${percentage}%  <a href="thx.html">Next</a> <br> <p>Please take now a Screenshot to send it to our E-Mail</p>`;
+    document.getElementById('result').innerHTML = `You have reached ${percentage}%  <br> <p>Please take now a Screenshot to send it to our E-Mail</p> <br> <form action="thx.html"><button type="submit">Next</button></form>`;
   });
   
 
