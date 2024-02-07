@@ -4,7 +4,10 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
     const answer1 = document.getElementById('question1').value.trim().toLowerCase();
     const answer2 = document.getElementById('question2').value.trim().toLowerCase();
     const answer3 = document.getElementById('question3').value.trim().toLowerCase();
-  
+    const answer4 = document.getElementById('question4').value.trim().toLowerCase();
+    const answer5 = document.getElementById('question5').value.trim().toLowerCase();
+    const answer6 = document.getElementById('question6').value.trim().toLowerCase();
+
     let score = 0;
     if (answer1 === 'Holz' || answer1 === 'holz') {
       score++;
@@ -15,8 +18,17 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
     if (answer3 === 'Wind' || answer3 === 'wind') {
       score++;
     }
+    if (answer4 === 'dass') {
+      score++;
+    }
+    if (answer5 === 'schuld') {
+        score++;
+      }
+    if (answer6 === 'todkrank') {
+        score++;
+      }
   
-    const totalQuestions = 3;
+    const totalQuestions = 6;
     const percentage = (score / totalQuestions) * 100;
   
     document.getElementById('result').innerHTML = `You have reached ${percentage}%  <a href="thx.html">Next</a> <br> <p>Please take now a Screenshot to send it to our E-Mail</p>`;
