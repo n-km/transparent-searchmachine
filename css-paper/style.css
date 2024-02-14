@@ -153,3 +153,49 @@ nav a:hover::after {
         top: 0;
     }
     }
+
+
+
+    /*
+    ZEITUNG
+    */
+
+    .paper {
+        margin-top: 30ch;
+        background-color: transparent;
+    }
+    .main-new {
+        height: 50ch;
+        width: max-content;
+        border-radius: 10px;
+        border-width: 0px;
+        background-color: transparent;
+    }
+    .daily img {
+        border-radius: 10px;
+        height: 100%;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .daily img:hover {
+        box-shadow: 0 0 7px black;
+    }
+    .download {
+        display: none;
+        left: 5px;
+        bottom: 5px;
+        position: fixed;
+
+    }
+    .download button {
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: rgb(13, 118, 255);
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .download button:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
