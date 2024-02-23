@@ -18,6 +18,7 @@ html {
             position: fixed;
             right: 0;
             top: 0;
+            width: 100%;
         }
         .content input {
             padding: 10px;
@@ -28,6 +29,7 @@ html {
             font-size: 25px;
             background-color: rgba(250, 250, 250);
             font-family:'Times New Roman', Times, serif;
+            width: 100%;
         }
         .content input:focus {
             background-color: rgba(250, 250, 250, 0.75);
@@ -65,4 +67,32 @@ html {
         .banner button:hover {
             background-color: white;
             color: black;
+        }
+        h1 {
+            font-family:'Times New Roman', Times, serif;
+        }
+        .text {
+            margin-top: 50px;
+        }
+        .code {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .code button {
+            cursor: pointer;
+            border-radius: 3px;
+            border-width: 0px;
+            background-color: white;
+            padding: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            transition: 0.2s;
+        }
+        .code button:hover {
+            box-shadow: 0 0 5px rgba(250, 250, 250, 0.75);
         }

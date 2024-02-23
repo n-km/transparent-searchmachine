@@ -12,30 +12,40 @@
     <body>
         
         <div class="content">
+            
+        
             <div class="searchinterface">
                 <label>
                 <label for="browsers">   </label>
                <input placeholder="Password, then Enter..." list="browsers" id="font-size" name="browsers">
-               <datalist id="browsers">
-                <option value=" ">----------</option>
-                 <option value="n-km@1">N-KM</option>
-                 <option value=" ">----------</option>
-                 <option value="syntekh@1">SYNTEKH</option>
-                 <option value=" ">----------</option>
-                 
-                 </datalist>
+               
                  
                  
                  </div>
+                 
         </div>
+        <div class="text">
+            <form action="https://n-km.github.io/transparent-searchmachine">
+                <button>Go Back to Hub</button>
+            </form>
 
+        </div>
 
             <div class="banner" id="BANNER">
                 <h1>Wait...</h1>
                 <br>
                 <p>You have to put the Password in the input-field and then push Enter.</p>
                 <br>
+                <p>Where can I get the code? <button onclick="CODE.style.display= 'block'">Here</button></p>
+                <br>
                 <button onclick="BANNER.style.display='none'">Okay, I understand.</button>
+            </div>
+
+            <div class="code" id="CODE" style="display: none">
+                <button onclick="CODE.style.display = 'none'">Back</button>
+                <h2>Available User:</h2>
+                <p>n-km <button ondblclick="NKMKEY.style.opacity= '100%'">Get Key (dblclick)</button> <p style="opacity: 0%; transition: 0.2s;" id="NKMKEY">T3CJKY24aAbQxFx <button onclick="NKMKEY.style.opacity = '0%'">Hide</button></p></p>
+                <p>syntekh <button ondblclick="SYNTEKHKEY.style.opacity= '100%'">Get Key (dblclick)</button> <p style="opacity: 0%; transition: 0.2s;" id="SYNTEKHKEY">not available <button onclick="SYNTEKHKEY.style.opacity = '0%'">Hide</button></p></p>
             </div>
 
 
