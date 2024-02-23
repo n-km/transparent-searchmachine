@@ -9,6 +9,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    backdrop-filter: blur(10px);
   }
           body{
             font-family: 'Karla', sans-serif;
