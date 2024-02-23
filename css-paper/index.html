@@ -8,6 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="bar">
@@ -21,11 +24,12 @@
             <center>
                 <div class="daily">
                     <form action="prev/Preview 14022024.pdf">
-                        <button onclick="DOWN.style.display='block'" type="button" class="main-new">
+                        <button onclick="DOWN.style.display = 'block'" type="button" class="main-new">
                             <img src="prev/Preview 14022024.png" alt="">
                         </button>
                         <div class="download" id="DOWN">
-                            <button type="submit">Download Preview</button>
+                            <button type="submit" class="down-btn">Download Preview</button>
+                            <button class="x" type="button" onclick="DOWN.style.display = 'none'">❌</button>
                         </div>
                     </form>
                 </div>

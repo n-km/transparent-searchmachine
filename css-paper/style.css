@@ -182,12 +182,17 @@ nav a:hover::after {
     }
     .download {
         display: none;
-        left: 5px;
-        bottom: 5px;
         position: fixed;
-
+        top: 0;
+        left: 0;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        transition: 0.2s;
+        background-color: rgba(0, 0, 0, 0.4);
     }
-    .download button {
+    .down-btn {
+        margin-top: 50vh;
         border-radius: 5px;
         border-width: 0px;
         background-color: rgb(13, 118, 255);
@@ -195,7 +200,25 @@ nav a:hover::after {
         padding: 10px;
         cursor: pointer;
         transition: 0.2s;
+        font-family: 'Karla', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
     }
-    .download button:hover {
-        background-color: rgba(0, 0, 0, 0.3);
+    .dow-btn:hover {
+        background-color: rgb(7, 103, 230);
+    }
+    .x {
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 25px;
+        background-color: transparent;
+        border-width: 0px;
+        padding: 10px;
+        transition: 0.2s;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 3px;
+    }
+    .x:hover {
+        background-color: rgba(250, 250, 250, 0.35);
     }
