@@ -29,7 +29,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 .task button:hover {
-    border-color: black;
+    border-color: rgb(211, 35, 255);
 }
 .task img {
     height: 100%;
@@ -41,16 +41,17 @@ body {
     margin-top: 10px;
     width: 100%;
     height: max-content;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
     backdrop-filter: blur(4px);
     border-radius: 0px;
     font-family: 'Courier New', Courier, monospace;
     transition: 0.2s;
-    overflow-y: scroll;
-    scrollbar-width: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
     position: fixed;
-    display: flex;
+    display: table;
+    
 }
 
 .banner p {
@@ -68,6 +69,7 @@ body {
     border-radius: 5px;
     transition: 0.4s;
     margin-left: 5px;
+    margin-top: 5px;
 }
 .product:hover {
     background-color: rgba(211, 35, 255, 0.3);
@@ -76,4 +78,16 @@ body {
 .product img {
     height: 150px;
     border-radius: 5px;
+}
+
+@media(max-width: 800px) {
+    .banner {
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    }
+
+.reihe {
+    display: flex;
 }
