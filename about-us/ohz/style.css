@@ -1,0 +1,62 @@
+html { 
+    background: url("https://images3.alphacoders.com/109/thumb-1920-1093778.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+}
+.task {
+    background-color: rgba(255, 255, 255, 0.582);
+    color: white;
+    height: 50px;
+    box-shadow: 0 0 5px black;
+    backdrop-filter: blur(4px);
+}
+.task button {
+    font-size: 20px;
+    background-color: transparent;
+    border-width: 0px 0px 2px 0px;
+    border-color: transparent;
+    transition: 0.2s;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+.task button:hover {
+    border-color: black;
+}
+.task img {
+    height: 100%;
+}
+#right {
+    float: right;
+}
+.banner {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.banner:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.banner p {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
